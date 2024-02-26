@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', 'sans-serif';
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+table{
+  margin: 2rem, auto;
+  border-radius: 2rem;
+  border: 1rem hidden #443c68;
+  border-collapse: collapse;
+  box-shadow: 0 0 0 1px #fff;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+thead{
+  font-size: 1rem;
+  background-color: #443c68;
+  color: #fff;
+}
+
+th, td{
+  border: 1px solid #443c68;
+  min-width: auto;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  line-height: 1.7rem;
+}
+
+td{
+  color: #ffffff;
+}
+
+Button{
+  position: absolute;
+  top: 0;
+}
+
+.todos-container {
+  margin-bottom: 1rem;
+  max-width: 250px;
+}
+
+.todos-input {
+  margin-right: 0.5rem;
+}
+
+.todos-button {
+  margin-right: 0.5rem;
+}
+
